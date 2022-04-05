@@ -1,0 +1,37 @@
+{
+  "name": "cornejos-store",
+  "version": "1.0.0",
+  "description": "this project it will use microservices",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenay19/Cornejos-Store.git"
+  },
+  "keywords": [
+    "home",
+    "products"
+  ],
+  "author": "kenay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenay19/Cornejos-Store/issues"
+  },
+  "homepage": "https://github.com/kenay19/Cornejos-Store#readme",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "4.17.3",
+    "express-handlebars": "6.0.3",
+    "express-session": "1.17.2",
+    "ink-docstrap": "1.3.2",
+    "jsdoc": "3.6.10",
+    "morgan": "1.10.0",
+    "mysql": "2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
