@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node src",
-    "dev": "nodemon src"
+    "dev": "nodemon src",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/kenay19/Cornejos-Store#readme",
   "dependencies": {
     "bcryptjs": "2.4.3",
+    "clean-jsdoc-theme": "^3.3.4",
     "express": "4.17.3",
     "express-handlebars": "6.0.3",
     "express-session": "1.17.2",

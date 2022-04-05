@@ -12,16 +12,17 @@ server.engine('.hbs', exphbs.engine({
     PartialsDir:  path.join(server.get('views'), 'partials'),
     extname: '.hbs'
 }));
-
 server.set('view engine', '.hbs');
+
 // initializations
 
 // middlewares
 
 // routes 
-server.use(require(path.join(__dirname, 'routes/login.js')));
-// public files 
 
+server.use(require(path.join(__dirname, 'routes')));
+
+// public files 
 
 server.listen(server.get('port'), (request,response) => {
     console.log('listening on port: ', server.get('port'));
